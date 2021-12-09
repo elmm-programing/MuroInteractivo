@@ -17,32 +17,32 @@ export default function Registrarse() {
 		<div class="columns is-mobile is-centered  mt-5">
 			<div class="column is-two-fifths has-background-info">
 
-				<h1 class="  is-size-4"><strong class="has-text-info-light">Sign up</strong></h1>
+				<h1 class="  is-size-4"><strong class="has-text-info-light">Regístrate</strong></h1>
 				<div class="field">
-					<label class="label has-text-info-light">Username</label>
+					<label class="label has-text-info-light">Nombre de Usuario:</label>
 					<div class="control">
-						<input class="input" type="text" placeholder="Username" onChange={(event) => { setNewUsername(event.target.value) }} />
+						<input class="input" type="text" placeholder="Nombre de Usuario" onChange={(event) => { setNewUsername(event.target.value) }} />
 					</div>
 				</div>
 				<div class="field">
-					<label class="label has-text-info-light">Password</label>
+					<label class="label has-text-info-light">Contraseñas:</label>
 					<div class="control">
-						<input class="input" type="password" placeholder="Password" onChange={(event) => { setNewClave(event.target.value) }} />
+						<input class="input" type="password" placeholder="Contraseñas" onChange={(event) => { setNewClave(event.target.value) }} />
 					</div>
 				</div>
 				<div class="field">
-					<label class="label has-text-info-light">Name</label>
+					<label class="label has-text-info-light">Nombre:</label>
 					<div class="control">
-						<input class="input" type="text" placeholder="Name" onChange={(event) => { setNewName(event.target.value) }} />
+						<input class="input" type="text" placeholder="Nombre" onChange={(event) => { setNewName(event.target.value) }} />
 					</div>
 				</div>			<div class="field">
-					<label class="label has-text-info-light">LastName</label>
+					<label class="label has-text-info-light">Apellido</label>
 					<div class="control">
-						<input class="input" type="text" placeholder="LastName" onChange={(event) => { setNewLastName(event.target.value) }} />
+						<input class="input" type="text" placeholder="Apellido" onChange={(event) => { setNewLastName(event.target.value) }} />
 					</div>
 				</div>
 				<div class="control">
-					<button onClick={createUser} class="button is-primary">Sign up</button>
+					<button onClick={createUser} class="button is-primary">Regístrate</button>
 				</div>
 			</div>
 			<div class="column is-two-fifths has-background-link">

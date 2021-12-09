@@ -43,20 +43,20 @@ export default function Login() {
 		<div class="columns is-mobile is-centered  mt-6">
 			<div class="column is-two-fifths has-background-info">
 
-				<h1 class="  is-size-4"><strong class="has-text-info-light">Login</strong></h1>
+				<h1 class="  is-size-4"><strong class="has-text-info-light">Inicia sesión</strong></h1>
 				<div class="field">
-					<label class="label has-text-info-light">Username</label>
+					<label class="label has-text-info-light">Nombre de Usuario:</label>
 					<div class="control">
-						<input class="input" type="text" placeholder="Username" onChange={(event) => { setNewUsername(event.target.value) }} />
+						<input class="input" type="text" placeholder="Nombre de Usuario:" onChange={(event) => { setNewUsername(event.target.value) }} />
 					</div>
 				</div><div class="field">
-					<label class="label has-text-info-light">Password</label>
+					<label class="label has-text-info-light">Contraseñas</label>
 					<div class="control">
-						<input class="input" type="password" placeholder="Password" onChange={(event) => { setNewClave(event.target.value) }} />
+						<input class="input" type="password" placeholder="Contraseñas" onChange={(event) => { setNewClave(event.target.value) }} />
 					</div>
 				</div>
 				<div class="control">
-					<button onClick={verificar} class="button is-primary">Log in</button>
+					<button onClick={verificar} class="button is-primary">Inicia sesión</button>
 				</div>
 			</div>
 			<div class="column is-two-fifths has-background-link">

@@ -19,7 +19,7 @@ function Post() {
 		<div className="App">
 			<div class=" has-text-centered">
 				<button class="button  is-medium  is-primary" onClick={getUsers}>
-					refrezcar
+					Refrezcar
 
 				</button></div>
 			{

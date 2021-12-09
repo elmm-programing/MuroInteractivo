@@ -25,11 +25,11 @@ export default function NavBar() {
 					<div class="buttons">
 						<Link to="/Login" class="button is-info">
 
-							<strong>Log in</strong>
+							<strong>Inicia sesión</strong>
 						</Link>
 						<Link to="/Registrarse" class="button is-info">
 
-							<strong>Sign up</strong>
+							<strong>Regístrate</strong>
 						</Link>
 
 					</div>

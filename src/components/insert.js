@@ -39,7 +39,7 @@ export default function Insert() {
 					</div>
 
 
-					<button class="button is-success" onClick={createPost}>Save Post</button>
+					<button class="button is-success" onClick={createPost}>Guardar Post</button>
 					<button class="button" onClick={close}>Cancel</button>
 
 

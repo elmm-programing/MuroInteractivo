@@ -56,7 +56,7 @@ export default function Index() {
 						<div class="buttons">
 							<button class="button is-danger" onClick={logOut}>
 
-								<strong>Log out</strong>
+								<strong>Cerrar sesión</strong>
 							</button>
 
 						</div>
